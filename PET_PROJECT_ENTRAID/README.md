@@ -16,3 +16,14 @@ This project demonstrates the design and implementation of an enterprise-grade I
 ### 3. Privileged Identity Management (PIM)
 * **Zero Standing Access (ZSA):** Eradicated permanent administrative assignments in favor of Just-In-Time (JIT) activations.
 * **Time-Bound Assignments:** Configured Eligible role assignments requiring MFA verification, business justification, and auto-expiring time limits.
+
+## Verification & Proof of Concept
+
+### 1. Administrative Unit & Restricted Scope
+![Administrative Unit Warsaw](screenshots/administrative-unit-warsaw.png)
+
+### 2. Privileged Identity Management (PIM)
+![PIM Eligible Assignments](screenshots/pim-role-assignment.png)
+
+### 3. Conditional Access Policies
+![Conditional Access Policies](screenshots/conditional-access-policies.png)
