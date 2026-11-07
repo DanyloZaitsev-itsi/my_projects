@@ -1,0 +1,20 @@
+# Password Generator
+
+A simple and interactive Python console application that generates secure passwords containing letters, digits, and special characters based on user-defined length.
+
+## 📌 How It Works
+
+1. Prompts the user for their name and preferred password length.
+2. Validates the length (must be at least 8 characters, with dynamic feedback depending on the chosen length).
+3. Combines ASCII letters, digits, and punctuation marks into a single character pool using the `string` module.
+4. Randomly selects characters to generate a secure password of the specified length.
+
+## 🚀 Usage Example
+
+```text
+Enter your username: Alex
+Hello, Alex!
+Enter desired password length: 10
+Not bad, cowboy! That'll do.
+Great, creating a password of 10 characters!
+Your new password: K#9m2$vP!x
