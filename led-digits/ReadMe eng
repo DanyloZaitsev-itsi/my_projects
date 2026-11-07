@@ -1,0 +1,15 @@
+# LED Digits Display
+
+A Python console application that converts any number entered by the user into large "digital" characters styled like an LED display or an vintage electronic clock.
+
+## 📌 How It Works
+
+1. Each digit from `0` to `9` is defined as a matrix consisting of 5 rows made of `#` characters and spaces.
+2. The program prompts the user to enter a number.
+3. Using nested loops, the script outputs the corresponding row for each digit from left to right line by line, rendering a unified digital display.
+
+## 🚀 Usage Example
+
+**Input:**
+```text
+Write your digit: 1989
